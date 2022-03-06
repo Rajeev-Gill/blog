@@ -1,0 +1,21 @@
+{
+  "title": "Rajeev G. Blog 2022",
+  "url": "https://example.com/",
+  "language": "en",
+  "description": "I am writing about my experiences fiddling with web and advertising technology.",
+  "feed": {
+    "subtitle": "I am writing about my experiences fiddling with web and advertising technology.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://example.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://example.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Rajeev G.",
+    "email": "rajeev.sgill@gmail.com",
+    "url": "https://example.com/about-me/"
+  }
+}
