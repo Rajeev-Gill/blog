@@ -1,7 +1,7 @@
 node_modules/
-package-lock.json/
-domain_export.csv/
-domain_export_2.csv/
-smallJeev.jpg/
-smallJeev.png/
-.DS_Store/
+package-lock.json
+domain_export.csv
+domain_export_2.csv
+smallJeev.jpg
+smallJeev.png
+.DS_Store
