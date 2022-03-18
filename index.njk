@@ -4,6 +4,7 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
+<p>... The Online Braindump </p>
 {% set maxPosts = collections.posts.length | min(3) %}
 <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
 

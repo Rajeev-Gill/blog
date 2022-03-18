@@ -1,7 +1,7 @@
 ---
 title: An Introduction to Using the Command Line on Windows.
 description: This is a post on My Blog about utilising the windows command line.
-date: 2022-06-03
+date: 2022-03-06
 tags:
   - Tech
 layout: layouts/post.njk

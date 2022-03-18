@@ -100,6 +100,11 @@ code {
   text-decoration: none;
 }
 
+/* Footer */
+footer {
+  padding: 0 1rem;
+}
+
 /* Nav */
 .nav {
   padding: 0;
@@ -216,4 +221,27 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+@media screen 
+  and (max-device-width: 550px) {
+
+    .postlist-date, .postlist-item:before {
+    display: none;
+  }
+
+  .postlist-link {
+    text-decoration-line: none;
+    padding-left: 0;
+  }
+
+  .postlist-item {
+    border-bottom: 1px solid black;
+  }
+
+  .postlist-item > .post-tag {
+    align-self: flex-start;
+    margin-left: 0;
+  }
+
 }

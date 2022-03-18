@@ -1,7 +1,7 @@
 node_modules/
+draft_posts/
 package-lock.json
-domain_export.csv
-domain_export_2.csv
 smallJeev.jpg
 smallJeev.png
 .DS_Store
+TODO.md

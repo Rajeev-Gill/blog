@@ -30,8 +30,9 @@
       {{ content | safe }}
     </main>
 
-    <footer></footer>
+    <footer>
+      <p>Current page: {{ page.url | url }}</p>
+    </footer>
 
-    <!-- Current page: {{ page.url | url }} -->
   </body>
 </html>
