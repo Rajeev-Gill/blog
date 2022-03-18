@@ -226,7 +226,14 @@ a[href].direct-link:focus:visited,
 @media screen 
   and (max-device-width: 550px) {
 
-    .postlist-date, .postlist-item:before {
+    /* .postlist-date,  */
+
+    .postlist-item {
+      flex-direction: column-reverse;
+      border-bottom: 1px solid black;
+    }
+    
+  .postlist-item:before {
     display: none;
   }
 
@@ -235,13 +242,8 @@ a[href].direct-link:focus:visited,
     padding-left: 0;
   }
 
-  .postlist-item {
-    border-bottom: 1px solid black;
-  }
-
   .postlist-item > .post-tag {
-    align-self: flex-start;
-    margin-left: 0;
+    display: none;
   }
 
 }
