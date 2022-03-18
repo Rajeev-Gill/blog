@@ -102,7 +102,7 @@ code {
 
 /* Footer */
 footer {
-  padding: 0 1rem;
+  padding: 1rem;
 }
 
 /* Nav */
@@ -221,6 +221,11 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+/* Single Post Styles */
+.last-updated {
+  display: inline;
 }
 
 @media screen 
