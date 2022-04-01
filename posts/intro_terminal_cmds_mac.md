@@ -24,6 +24,11 @@ $ cd /Volumes/Macintosh\ HD/
 $ cd "/Volumes/Macintosh HD/" = With folders that contain spaces, there’s two ways you can do it:
 ```
 
+### Create folder
+```bash
+$ mkdir <folder name>
+```
+
 ### List
 ```bash
 $ ls = List the Contents of a Directory. To view it in a list format, enter: $ ls -l
@@ -33,6 +38,10 @@ $ ls = List the Contents of a Directory. To view it in a list format, enter: $ l
 ```
 ```
 $ ls -la = but also view all the hidden files?
+```
+### Delete file
+```bash
+$ rm <filename>
 ```
 
 ### Server
@@ -61,4 +70,21 @@ $ caffeinate -u -t 600 = Prevent from sleeping, 600s (10m)
 ### Monitor a file
 ```bash
 $ tail -f /var/log/system.log = constantly monitor your chosen file and display any new lines as they’re added, perfect for monitoring system log files
+```
+
+### Modify file permissions
+```bash
+$ sudo chmod +x <filename> = grant execute permission on file. Command takes rwx (read/write/execute)
+$ sudo chmod u+x <filename> = grant execute permission on file for user takes ugoa (user/group/others/all)
+```
+
+### Move file
+```bash
+$ mv <filename>
+```
+
+### Environment vars
+```bash
+$ env = view environment variables
+$ export = set an environment variable
 ```
