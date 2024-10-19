@@ -1,4 +1,4 @@
-```yaml
+```
 title: AI
 description: This is a post on My Blog containing my AI notes.
 date: 2024-10-19
@@ -27,7 +27,7 @@ layout: layouts/post.njk
 
 Msty
 
-![msty.png](https://github.com/Rajeev-Gill/blog/blob/main/img/msty.png)
+![msty.png](https://github.com/Rajeev-Gill/blog/blob/main/img/msty.png?raw=true)
 
 LibreChat
 
