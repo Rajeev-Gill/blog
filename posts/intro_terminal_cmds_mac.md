@@ -8,6 +8,16 @@ layout: layouts/post.njk
 ---
 ## Basic Commands
 
+### Interactive CLI reference
+
+[(SS64) - Command line reference](https://ss64.com/)
+
+### Echo
+
+```bash
+$ echo <input> = print a string to the terminal
+```
+
 ### Clear
 
 ```bash
@@ -36,7 +46,7 @@ $ ls = List the Contents of a Directory. To view it in a list format, enter: $ l
 ```bash
 $ ls = List the Contents of a Directory. To view it in a list format, enter: $ ls -l
 ```
-```
+```bash
 $ ls -la = but also view all the hidden files?
 ```
 ### Delete file
@@ -88,3 +98,12 @@ $ mv <filename>
 $ env = view environment variables
 $ export = set an environment variable
 ```
+
+### Useful resoucrces
+[How Does PATH Work in Bash](https://linuxhint.com/path_in_bash/)
+
+[(SS64) - Command line reference](https://ss64.com/)
+
+[The PATH demystified](https://astrobiomike.github.io/unix/modifying_your_path)
+
+[LinuxHint](https://linuxhint.com/)

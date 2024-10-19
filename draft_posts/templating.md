@@ -1,5 +1,5 @@
 ---
-title: Document Title
+title: Template Language Guide
 description: This is a post template
 date: 2022-06-03
 tags:

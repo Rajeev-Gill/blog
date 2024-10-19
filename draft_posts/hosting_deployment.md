@@ -9,3 +9,5 @@ layout: layouts/post.njk
 
 ## Hosting and Deployment
 https://vercel.com/dashboard
+
+https://medium.com/swlh/deploying-github-repository-to-google-cloud-platform-997d296547e6
