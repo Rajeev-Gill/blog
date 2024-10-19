@@ -1,11 +1,11 @@
-```
+---
 title: AI
 description: This is a post on My Blog containing my AI notes.
 date: 2024-10-19
 tags:
   - Tech  - AI
 layout: layouts/post.njk
-```
+---
 
 # My Notes on all things AI
 
