@@ -27,6 +27,8 @@ p:last-child {
 p,
 .tmpl-post li,
 img {
+  width: 100%;
+  height: auto;
   max-width: 37.5em; /* 600px /16 */
 }
 p,
